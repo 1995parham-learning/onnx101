@@ -1,2 +1,5 @@
-# onnx101
-Learn ONNX by doing (with presentation)
+# ONNX 101
+
+## Introduction
+
+ONNX is somehow a programming language for inference functions.
