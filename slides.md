@@ -110,6 +110,22 @@ on an existing tensor. _An ONNX tensor is a dense full array with no stride_.
 
 ---
 
+## What is a `opset` version?
+
+The `opset` is mapped to the version of the ONNX package.
+It is incremented every time the minor version increases. Every version brings updated or new operators.
+
+```python
+import onnx
+print(onnx.__version__, " opset=", onnx.defs.onnx_opset_version())
+```
+
+```console
+1.17.0  opset= 22
+```
+
+---
+
 ## ONNX Runtime
 
 ONNX Runtime provides an easy way to run machine _learned models_ with high performance on **CPU** or **GPU**
