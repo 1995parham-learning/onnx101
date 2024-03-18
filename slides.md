@@ -91,11 +91,11 @@ defined with ONNX operators.
 This runtime can be developed in any language suitable for the production application,
 C, java, python, JavaScript, C#, Web Assembly, ARM, etc.
 
-::Note
+:::Note
 But to make that happen, the ONNX graph needs to be saved.
 ONNX uses `protobuf` to serialize the graph into one single block.
 It aims at optimizing the model size as much as possible.
-::
+:::
 
 ---
 
