@@ -85,7 +85,7 @@ hideInToc: true
 Once a model is converted into ONNX, the production environment only needs a **runtime** to execute the graph
 defined with ONNX operators.
 
-This runtime can be developed in any language suitable for the production application,
+This runtime can be developed in _any language suitable for the production_ application,
 C, java, python, JavaScript, C#, Web Assembly, ARM, etc.
 
 :::Note
@@ -93,6 +93,20 @@ But to make that happen, the ONNX graph needs to be saved.
 ONNX uses `protobuf` to serialize the graph into one single block.
 It aims at optimizing the model size as much as possible.
 :::
+
+---
+
+## Supported Types
+
+ONNX specifications are optimized for **numerical computation with tensors**.
+A tensor is a multidimensional array. It is defined by:
+
+- _A type_: the element type, the same for all elements in the tensor
+- _A shape_: an array with all dimensions, this array can be empty, a dimension can be null
+- _A contiguous array_: it represents all the values
+
+This definition **does not** include strides or the possibility to define a view of a tensor based
+on an existing tensor. _An ONNX tensor is a dense full array with no stride_.
 
 ---
 
