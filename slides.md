@@ -151,3 +151,14 @@ which is a more common scenario in applications, sites, and services. At a high 
 Let's use ONNX with Nostradamus
 
 <img alt="nostradamus" src="/nostradamus.jpeg" class="rounded-10 mx-auto d-block shadow h-60" />
+
+---
+
+## Convert `sklearn` into ONNX
+
+The current model is in the pickle format and available on S3.
+After downloading the model, we convert it into ONNX format as follows:
+
+<<< @/snippets/load.py
+
+There is a library
