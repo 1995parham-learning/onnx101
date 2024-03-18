@@ -10,6 +10,7 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+favicon: "https://github.com/1995parham-me.png"
 ---
 
 # ONNX Crash Course
@@ -29,7 +30,7 @@ By Elahe Dastan
 
 ONNX can be compared to a **programming language** specialized in mathematical functions.
 It defines all the necessary operations a machine learning model needs to implement
-its inference function with this language.
+its _inference function_ with this language.
 
 ```python
 def onnx_linear_regressor(X):
