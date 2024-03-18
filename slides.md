@@ -38,6 +38,8 @@ layout: center
 
 Why you may use something else instead of serving your model by yourself?
 
+<img alt="linreg" src="/247-complexity.png" class="rounded mx-auto d-block shadow h-60" />
+
 ---
 
 ## What is ONNX?
