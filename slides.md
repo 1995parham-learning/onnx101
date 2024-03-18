@@ -26,7 +26,7 @@ By Elahe Dastan
 
 ---
 
-# What is ONNX?
+## What is ONNX?
 
 ONNX can be compared to a **programming language** specialized in mathematical functions.
 It defines all the necessary operations a machine learning model needs to implement
@@ -37,3 +37,21 @@ def onnx_linear_regressor(X):
     "ONNX code for a linear regression"
     return onnx.Add(onnx.MatMul(X, coefficients), bias)
 ```
+
+---
+
+## ONNX Runtime
+
+ONNX Runtime provides an easy way to run machine _learned models_ with high performance on **CPU** or **GPU**
+without dependencies on the training framework.
+
+Machine learning frameworks are usually optimized for _batch training rather than for prediction_,
+which is a more common scenario in applications, sites, and services. At a high level, you can:
+
+<v-clicks>
+
+- Train a model using your _favorite framework_. <twemoji-teacher />
+- Convert or export the model into _ONNX format_. <twemoji-package />
+- Load and run the model using _ONNX Runtime_. <twemoji-rocket />
+
+</v-clicks>
