@@ -11,18 +11,32 @@ drawings:
 transition: slide-left
 mdc: true
 favicon: "https://github.com/1995parham-me.png"
+layout: cover
+hideInToc: true
 ---
 
 # ONNX Crash Course
 
 By Elahe Dastan
 
-<div class="abs-br m-6 flex gap-2">
+<div class="abs-br m-6 flex">
   <a href="https://github.com/1995parham-learning/onnx101" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
 </div>
+
+---
+
+<Toc mode="" />
+
+---
+layout: center
+---
+
+# ONNX <twemoji-thinking-face />
+
+Why you may use something else instead of serving your model by yourself?
 
 ---
 
@@ -39,6 +53,49 @@ def onnx_linear_regressor(X):
 ```
 
 <img alt="linreg" src="/linreg1.png" class="rounded mx-auto d-block shadow h-60" />
+
+---
+
+## Serialization with `protobuf`
+
+The deployment of a machine-learned model into production usually requires **replicating** the entire ecosystem
+used to train the model, most of the time with a _docker_.
+
+```toml
+[packages]
+numpy = "*"
+scikit-learn = "1.3.2"
+uvicorn = { extras = ["standard"], version = "*" }
+cloudpickle = "*"
+flask = "*"
+sqlalchemy = { extras = ["mypy"], version = "*" }
+psycopg2-binary = "*"
+prometheus-client = "*"
+fastapi = "*"
+pandas = "*"
+matplotlib = "*"
+jupyter = "*"
+keras = "*"
+prometheus-fastapi-instrumentator = "*"
+```
+
+---
+hideInToc: true
+---
+
+## Serialization with `protobuf` (Cont'd)
+
+Once a model is converted into ONNX, the production environment only needs a **runtime** to execute the graph
+defined with ONNX operators.
+
+This runtime can be developed in any language suitable for the production application,
+C, java, python, JavaScript, C#, Web Assembly, ARM, etc.
+
+::Note
+But to make that happen, the ONNX graph needs to be saved.
+ONNX uses `protobuf` to serialize the graph into one single block.
+It aims at optimizing the model size as much as possible.
+::
 
 ---
 
