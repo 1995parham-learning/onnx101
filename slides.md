@@ -38,7 +38,7 @@ layout: center
 
 Why you may use something else instead of serving your model by yourself?
 
-<img alt="linreg" src="/247-complexity.png" class="rounded mx-auto d-block shadow h-60" />
+<img alt="meme" src="/247-complexity.png" class="rounded mx-auto d-block shadow h-60" />
 
 ---
 
@@ -143,3 +143,11 @@ which is a more common scenario in applications, sites, and services. At a high 
 - Load and run the model using _ONNX Runtime_. <twemoji-rocket />
 
 </v-clicks>
+
+---
+
+# ONNX in Action <twemoji-fire />
+
+Let's use ONNX with Nostradamus
+
+<img alt="nostradamus" src="/nostradamus.jpeg" class="rounded-10 mx-auto d-block shadow h-60" />
