@@ -159,6 +159,10 @@ Let's use ONNX with Nostradamus
 The current model is in the pickle format and available on S3.
 After downloading the model, we convert it into ONNX format as follows:
 
-<<< @/snippets/load.py
+<<< @/snippets/load.py python
 
-There is a library
+---
+
+## Convert `sklearn` into ONNX (Cont'd)
+
+There is a library which converts `sklearn` models into ONNX.
