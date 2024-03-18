@@ -38,6 +38,8 @@ def onnx_linear_regressor(X):
     return onnx.Add(onnx.MatMul(X, coefficients), bias)
 ```
 
+<img alt="linreg" src="/linreg1.png" class="rounded mx-auto d-block shadow h-60" />
+
 ---
 
 ## ONNX Runtime
