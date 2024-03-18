@@ -28,7 +28,7 @@ By Elahe Dastan
 
 ---
 
-<Toc mode="" />
+<Toc />
 
 ---
 layout: center
@@ -66,10 +66,7 @@ used to train the model, most of the time with a _docker_.
 numpy = "*"
 scikit-learn = "1.3.2"
 uvicorn = { extras = ["standard"], version = "*" }
-cloudpickle = "*"
 flask = "*"
-sqlalchemy = { extras = ["mypy"], version = "*" }
-psycopg2-binary = "*"
 prometheus-client = "*"
 fastapi = "*"
 pandas = "*"
