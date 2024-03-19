@@ -145,6 +145,25 @@ which is a more common scenario in applications, sites, and services. At a high 
 </v-clicks>
 
 ---
+layout: two-cols
+---
+
+## Average prediction time per runtime
+
+:::right:::
+
+<img alt="average prediction time per runtime"
+     src="/sphx_glr_plot_bbegin_measure_time_002.png"
+     class="rounded mx-auto d-block shadow h-100"
+/>
+
+:::left:::
+
+- `skl` abbreviates `scikit-learn`
+- `pyrt` means reference implementation of ONNX runtime in python
+- `ort` abbreviates `onnxruntime`
+
+---
 
 # ONNX in Action <twemoji-fire />
 
