@@ -161,7 +161,8 @@ After downloading the model, we convert it into ONNX format.
 
 There is a library which converts `sklearn` models into ONNX named `sklearn-onnx`.
 
-Model in the pickle format is about 4.7 GB and converted one is about 2.7 GB.
+Model in the pickle format is about 4.7 GB and converted one is about 2.7 GB
+and the conversion procedure takes around 1 hour.
 
 ---
 
