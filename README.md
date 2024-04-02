@@ -5,7 +5,11 @@
 ONNX is somehow a programming language for inference functions. Here, we are going to have a hands-on introduction
 for it.
 
-## Using [Slidev](https://github.com/slidevjs/slidev)
+## Presentation
+
+There is a presentation about what is the ONNX and try to describe its usage and different components.
+
+### Using [Slidev](https://github.com/slidevjs/slidev)
 
 To start the slide show:
 
