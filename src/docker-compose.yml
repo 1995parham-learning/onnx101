@@ -1,0 +1,14 @@
+---
+version: "3.11"
+
+services:
+  ort:
+    volumes:
+      - ".:/models"
+    ports:
+      - 9001:8001
+      - 50051:50051
+    image: mcr.microsoft.com/onnxruntime/server
+    command:
+      - --model_path
+      - /models/model.onnx
