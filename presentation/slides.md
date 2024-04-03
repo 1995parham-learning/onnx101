@@ -180,7 +180,8 @@ Let's use ONNX with Nostradamus
 The current model is in the pickle format and available on S3.
 After downloading the model, we convert it into ONNX format.
 
-There is a library which converts `sklearn` models into ONNX named `sklearn-onnx`.
+There is a library which converts `sklearn` models into ONNX named [`sklearn-onnx`](https://onnx.ai/sklearn-onnx/).
+([Supported `scikit-learn` Models](https://onnx.ai/sklearn-onnx/supported.html))
 
 Model in the pickle format is about 4.7 GB and converted one is about 2.7 GB
 and the conversion procedure takes around 1 hour.
@@ -199,4 +200,4 @@ hideInToc: true
 
 The last step didn't go well as expected:
 
-- `narrowing_error`
+- `narrowing_error` happens when using both code-based or container-based ONNX runtime.
