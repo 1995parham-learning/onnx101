@@ -10,6 +10,7 @@ onnxruntime = "*"
 
 [dev-packages]
 pylint = "*"
+ruff = "*"
 
 [requires]
 python_version = "3.11"
