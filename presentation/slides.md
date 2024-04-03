@@ -62,7 +62,7 @@ hideInToc: true
 
 ## What is ONNX? (Cont'd)
 
-<img alt="onnx overview" src="/onnx.png" class="rounded mx-auto d-block shadow h-60" />
+<img alt="onnx overview" src="/onnx.png" class="rounded mx-auto d-block shadow h-80 mt-10" />
 
 ---
 
