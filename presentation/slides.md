@@ -186,7 +186,15 @@ Model in the pickle format is about 4.7 GB and converted one is about 2.7 GB
 and the conversion procedure takes around 1 hour.
 
 ---
+hideInToc: true
+---
 
 ## Convert `sklearn` into ONNX (Cont'd)
 
 <<< @/snippets/load.py python
+
+## Running model with `onnxruntime`
+
+The last step didn't go well as expected:
+
+- `narrowing_error`
