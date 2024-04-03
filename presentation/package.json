@@ -10,7 +10,7 @@
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.20",
     "@iconify-json/twemoji": "^1.1.15",
-    "@slidev/cli": "^0.48.3",
+    "@slidev/cli": "^0.48.8",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "vue": "^3.4.21"
