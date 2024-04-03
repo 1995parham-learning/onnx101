@@ -57,6 +57,12 @@ def onnx_linear_regressor(X):
 <img alt="linreg" src="/linreg1.png" class="rounded mx-auto d-block shadow h-60" />
 
 ---
+hideInToc: true
+---
+
+## What is ONNX? (Cont'd)
+
+<img alt="onnx overview" src="/onnx.png" class="rounded mx-auto d-block shadow h-60" />
 
 ## Serialization with `protobuf`
 
