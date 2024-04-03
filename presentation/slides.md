@@ -64,6 +64,8 @@ hideInToc: true
 
 <img alt="onnx overview" src="/onnx.png" class="rounded mx-auto d-block shadow h-60" />
 
+---
+
 ## Serialization with `protobuf`
 
 The deployment of a machine-learned model into production usually requires **replicating** the entire ecosystem
