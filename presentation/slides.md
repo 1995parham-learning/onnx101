@@ -193,6 +193,8 @@ hideInToc: true
 
 <<< @/snippets/load.py python
 
+---
+
 ## Running model with `onnxruntime`
 
 The last step didn't go well as expected:
