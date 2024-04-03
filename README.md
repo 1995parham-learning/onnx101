@@ -1,4 +1,8 @@
-# ONNX 101
+<h1 align="center">ONNX 101</h1>
+
+<p align="center">
+  <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/1995parham-learning/onnx101/lint.yaml?style=for-the-badge&logo=github">
+</p>
 
 ## Introduction
 
