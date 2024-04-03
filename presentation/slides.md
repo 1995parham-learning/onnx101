@@ -201,3 +201,4 @@ hideInToc: true
 The last step didn't go well as expected:
 
 - `narrowing_error` happens when using both code-based or container-based ONNX runtime.
+- Python 3.10 is not working with models larger than 2 GB, so I switched to Python 3.11.
