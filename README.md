@@ -4,6 +4,10 @@
   <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/1995parham-learning/onnx101/lint.yaml?style=for-the-badge&logo=github">
 </p>
 
+<p align="center">
+  <img alt="ONNX overview" src="./presentation/public/onnx.png">
+</p>
+
 ## Introduction
 
 ONNX is somehow a programming language for inference functions. Here, we are going to have a hands-on introduction
