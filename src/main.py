@@ -8,10 +8,9 @@ https://onnx.ai/sklearn-onnx/auto_tutorial/plot_abegin_convert_pipeline.html
 import pickle
 
 import numpy
+import onnx.reference
 import onnxruntime as ort
 from skl2onnx import to_onnx
-
-import onnx.reference
 
 if __name__ == "__main__":
     # load trained model from a pickle file.

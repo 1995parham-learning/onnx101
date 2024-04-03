@@ -1,9 +1,8 @@
 import pickle
 
+import onnx
 from skl2onnx import convert_sklearn
 from skl2onnx.common.data_types import FloatTensorType
-
-import onnx
 
 if __name__ == "__main__":
     MODEL = None
