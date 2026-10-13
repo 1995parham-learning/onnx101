@@ -8,15 +8,19 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@iconify-json/heroicons": "^1.1.20",
-    "@iconify-json/twemoji": "^1.1.15",
-    "@slidev/cli": "^0.48.8",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
-    "vue": "^3.4.21"
+    "@iconify-json/heroicons": "^1.2.3",
+    "@iconify-json/twemoji": "^1.2.5",
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0",
+    "vue": "^3.5.44"
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
+    "prettier": "^3.9.10",
     "prettier-plugin-slidev": "^1.0.5"
+  },
+  "overrides": {
+    "dompurify": "^3.4.17",
+    "image-size": "^2.0.4"
   }
 }
